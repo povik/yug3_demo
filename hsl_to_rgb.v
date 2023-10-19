@@ -50,6 +50,7 @@ always @(*) begin
 		3: begin r_ = 0; g_ = x; b_ = c; end
 		4: begin r_ = x; g_ = 0; b_ = c; end
 		5: begin r_ = c; g_ = 0; b_ = x; end
+		default: begin r_ = 0; g_ = 0; b_= 0; end
 	endcase
 end
 
